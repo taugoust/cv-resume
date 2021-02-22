@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage{times}
+\usepackage[small,compact]{titlesec}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{hyperref}
+\nofiles
+
+\newenvironment{tightitemize}
+{\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}
+{\end{itemize}}
+
+\begin{document}
+{\noindent}\small{\textbf{Theofilos Augoustis
+\href{mailto:theofilos.augoustis@gmail.com}{\nolinkurl{<theofilos.augoustis@gmail.com>}}}}
+
+\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\textwidth}
+\nointerlineskip
+
+\pagestyle{empty}
+
+\subsection*{Open Source}
+I passionately believe in the many societal benefits of open source, and
+actively try to get involved with Open Source projects.
+
+\subsection*{Employment and Education}
+\begin{tightitemize}
+
+\item \textbf{2018/07--now: Software Engineer, Intel (Timisoara, Romania)}
+\begin{tightitemize}
+    \item Worked in the Application Engineering team.
+    \item Developed significantly Intel's VPU (Visual Processing Unit) Abstraction Layer
+        framework that provides RPC-over-USB for OpenCV VPU support.
+    \item Worked on the firmware implementation of the Microsoft Azure E2E edge AI
+        VPU project.
+    \item Customer Neural Network enablement in OpenVINO (UNet, Faster-RCNN).
+    \item Developed a configurable power manager for the VPU Neural Network runtime
+        engine.
+    \item Supported Intel teams in implementing power-efficient VPU configurations.
+    \item Implemented an End-to-End testing framework based on GTest for the
+        VPU, complete with automatic boot-reset and a comprehensive testing
+        suite.
+\end{tightitemize}
+
+\item \textbf{2020/12--2021/02: Teaching Assistant, UPT Automatics \& Computers
+    (Timisoara, Romania)}
+\begin{tightitemize}
+\item Recitations with \textasciitilde15 students, plus one-on-one meetings and
+    grading of projects. Projects held:
+\begin{tightitemize}
+    \item ``Interrupt Handling on x86'' (Exploration of Linux's set up of x86
+        interrupts (IDT, APIC) and architecture independent handling).
+    \item ``Timer Handling on x86'' (Exploration of timer counters on x86 (TSC,
+        HPET, PIC) and algorithms for accurate time measurement on Linux).
+    \item ``Rowhammer Exploration'' (Exploration of the Rowhammer vulnerability,
+        along with possible attack vectors and solutions through a study of
+            academic literature on the subject).
+\end{tightitemize}
+\item Held an interactive x86 assembly programming session, discussing
+    instructions, register usage and the SystemV AMD64 ABI.
+\end{tightitemize}
+
+\item \textbf{2017/07--2021/07: Polytehnica University of Timisoara,
+Bachelor of Engineering in Computer Engineering and Information Technology}
+\begin{tightitemize}
+\item Developed a working C compiler, including lexing, parsing and code
+    generation.
+\item Developed a MIPS-compatible processor, complete with full ISA support and
+    a FPGA implementation.
+\item Participated in the Bitdefender Liga AC LABS programme, focused on x86
+    reserve engineering.
+\item Participated in the Intel Movidius Liga AC LABS programme, focused on
+    Computer Vision fundamentals and vectorized implementations of filters.
+\end{tightitemize}
+\end{tightitemize}
+
+\subsection*{Interests}
+\begin{tightitemize}
+    \item Operating System design
+    \item Compilers and Optimization
+    \item Automata theory
+    \item Complexity theory
+    \item Computer Architecture
+    \item ISAs and microprocessor design
+    \item FPGA systems
+\end{tightitemize}
+
+\vbox{\hrule width\textwidth}
+\begin{tightitemize}
+\item\textbf{Operating Systems:} Linux (4 years), Windows NT (1 year).
+\item\textbf{Languages (professional---minimum 2 active years):} C, C++,
+    Python.
+\item\textbf{Languages (amateur---minimum 1 serious project):} x86 assembly,
+    MIPS assembly, Java, Scheme, Verilog.
+\item\textbf{Technologies:} GCC, LLVM, Pthreads, \LaTeX, SSH, GDB, LLDB,
+    valgrind, IDAPro, Git, KVM/QEMU, Xilinx Vivado.
+\end{tightitemize}
+
+\center{Last updated \today. 
+\LaTeX\ source is available at \href{https://github.com/taugoust/cv-resume}{GitHub}.\\
+Copyright \textcopyright\ 2021 Theofilos Augoustis. All rights reserved. Distributed under the \href{http://creativecommons.org/licenses/by-sa/3.0/}{Creative Commons Attribution-ShareAlike 3.0} license.}
+
+\end{document}
+
